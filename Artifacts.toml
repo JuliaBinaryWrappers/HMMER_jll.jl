@@ -1,0 +1,52 @@
+[[HMMER]]
+arch = "i686"
+git-tree-sha1 = "368812fbbfe99d966e8cc7b5bb4078a602a0a37a"
+libc = "glibc"
+os = "linux"
+
+    [[HMMER.download]]
+    sha256 = "90604a25e64e939a7eb068eb194add38160448f423a9add746c89afb7a20ecd0"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.3.2+0/HMMER.v3.3.2.i686-linux-gnu.tar.gz"
+[[HMMER]]
+arch = "i686"
+git-tree-sha1 = "2dc07fa6b86dd22b5eca19497ccac7222d541c83"
+libc = "musl"
+os = "linux"
+
+    [[HMMER.download]]
+    sha256 = "c28c1216f119c0c4bb38e85b2d454e5a6c544ff715de25d67008d383ad8feca1"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.3.2+0/HMMER.v3.3.2.i686-linux-musl.tar.gz"
+[[HMMER]]
+arch = "x86_64"
+git-tree-sha1 = "274e93f516cda18b1b764cee9a11f9532982f04f"
+os = "macos"
+
+    [[HMMER.download]]
+    sha256 = "2a90ea3befc8722fa0f12b27c93285013ef00219a1e1418d2bc544f359643761"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.3.2+0/HMMER.v3.3.2.x86_64-apple-darwin.tar.gz"
+[[HMMER]]
+arch = "x86_64"
+git-tree-sha1 = "2ef0b653490d8b3256a0128f433a6838646d417b"
+libc = "glibc"
+os = "linux"
+
+    [[HMMER.download]]
+    sha256 = "c20fdc98636cd6d89ddc46659a87f8706ec88f53d1e333eac703399093178ef3"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.3.2+0/HMMER.v3.3.2.x86_64-linux-gnu.tar.gz"
+[[HMMER]]
+arch = "x86_64"
+git-tree-sha1 = "7a7e6744267f9c9aaf6d91dcdb6ac62083a6ca3e"
+libc = "musl"
+os = "linux"
+
+    [[HMMER.download]]
+    sha256 = "da2676e0d3c056fa271be6bd6050b2e85589724050d3a0720141cfbe497810f7"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.3.2+0/HMMER.v3.3.2.x86_64-linux-musl.tar.gz"
+[[HMMER]]
+arch = "x86_64"
+git-tree-sha1 = "84744fa6b2fc27391b5be5b5be356396676fd7b1"
+os = "freebsd"
+
+    [[HMMER.download]]
+    sha256 = "3f0c9e9ed8d6ec77ce19d7d87488e5ead45b901e98d8d7c2e07412e4f65babc7"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.3.2+0/HMMER.v3.3.2.x86_64-unknown-freebsd.tar.gz"
