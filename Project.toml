@@ -1,6 +1,6 @@
 name = "HMMER_jll"
 uuid = "9a00dd6d-eebd-547e-8f34-c9aea159fd8a"
-version = "3.3.2+0"
+version = "3.3.2+1"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
