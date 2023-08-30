@@ -1,52 +1,118 @@
 [[HMMER]]
-arch = "i686"
-git-tree-sha1 = "19f671aa7736878e277eaa46e1ba625d457197d6"
-libc = "glibc"
-os = "linux"
-
-    [[HMMER.download]]
-    sha256 = "21e894992cf0c03d5f4b0a16deafded1d92bf2345b6d1eb4fbd0f0b710daaf04"
-    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.1.0+0/HMMER.v3.1.0.i686-linux-gnu.tar.gz"
-[[HMMER]]
-arch = "i686"
-git-tree-sha1 = "3bfa1d0833056c17e9158eeadf6ef710019c6efd"
-libc = "musl"
-os = "linux"
-
-    [[HMMER.download]]
-    sha256 = "6691007853d904e94e4ab8e60d890fdd2e2b208544529e875db9d9fa5ea40562"
-    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.1.0+0/HMMER.v3.1.0.i686-linux-musl.tar.gz"
-[[HMMER]]
-arch = "x86_64"
-git-tree-sha1 = "28b729771ed86ff807c6f043c09ca40f6ff6102b"
+arch = "aarch64"
+git-tree-sha1 = "607b88a06c78c97f6f9d10ec778fc818181874af"
 os = "macos"
 
     [[HMMER.download]]
-    sha256 = "6d488ec98ef01d3e79706d4b46931986799c8ef4a25fca49871449c3cb7e3d86"
-    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.1.0+0/HMMER.v3.1.0.x86_64-apple-darwin.tar.gz"
+    sha256 = "3772fb7fb04ac14ab1d30c26cd3013114549ec1890927da5d639bb21131efd15"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.4.0+0/HMMER.v3.4.0.aarch64-apple-darwin.tar.gz"
 [[HMMER]]
-arch = "x86_64"
-git-tree-sha1 = "a397742f4491058ddc958974391861341b1fee91"
+arch = "aarch64"
+git-tree-sha1 = "1d6f5ffe0310fc5586dda3420329ac2e5523ed3e"
 libc = "glibc"
 os = "linux"
 
     [[HMMER.download]]
-    sha256 = "c0d2e386204418bd89a1e8e11654097661975c84656c587185d690f1a95015d2"
-    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.1.0+0/HMMER.v3.1.0.x86_64-linux-gnu.tar.gz"
+    sha256 = "dd1b3a3442373b3d627595238b7b4d00ffe321b244ea0fea5fba999d8e067676"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.4.0+0/HMMER.v3.4.0.aarch64-linux-gnu.tar.gz"
 [[HMMER]]
-arch = "x86_64"
-git-tree-sha1 = "04b2c9d0b5395927865f106e621081ce71f7a6ae"
+arch = "aarch64"
+git-tree-sha1 = "97d9328a2d81d124414f305f20a27242066e589d"
 libc = "musl"
 os = "linux"
 
     [[HMMER.download]]
-    sha256 = "9b2857781dcdd54065b6c27deaf5bb6b772032fb8784eb0fdb92e768cbeede15"
-    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.1.0+0/HMMER.v3.1.0.x86_64-linux-musl.tar.gz"
+    sha256 = "6858ae66ce1f493d16a14ad7c5b2605997d24fd1d4fdfa8a96da291a34014e2b"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.4.0+0/HMMER.v3.4.0.aarch64-linux-musl.tar.gz"
+[[HMMER]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "c8dc34c008a192a738ae583033fc8e598fa4fbea"
+libc = "glibc"
+os = "linux"
+
+    [[HMMER.download]]
+    sha256 = "f8fdc37891d7e01c9f05d6016cc848af734b295ab60efa804bfe8412f33cd48e"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.4.0+0/HMMER.v3.4.0.armv6l-linux-gnueabihf.tar.gz"
+[[HMMER]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "a189f6b7a4800e0063bfe8cfc75ec9b60e50c776"
+libc = "musl"
+os = "linux"
+
+    [[HMMER.download]]
+    sha256 = "aacb67d4a81ac67e09d08ed75740610217106c3fea9633fa3be1e43e590f8249"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.4.0+0/HMMER.v3.4.0.armv6l-linux-musleabihf.tar.gz"
+[[HMMER]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "fb544d67f8dba2f90609f055a17aa4120ce026c7"
+libc = "glibc"
+os = "linux"
+
+    [[HMMER.download]]
+    sha256 = "bc04509f1aa6f005f1cecb5c8bc2ccccd8e51035fa066621015b943afa2b0b67"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.4.0+0/HMMER.v3.4.0.armv7l-linux-gnueabihf.tar.gz"
+[[HMMER]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "d07b43b88b58b42ae995d7c2d9cd63563f3ff13b"
+libc = "musl"
+os = "linux"
+
+    [[HMMER.download]]
+    sha256 = "4a9a27d919292849ddf94a98539339885ac8fb51f1f2339ff2b938ca468d8270"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.4.0+0/HMMER.v3.4.0.armv7l-linux-musleabihf.tar.gz"
+[[HMMER]]
+arch = "i686"
+git-tree-sha1 = "6bad2b7f637f29ac70337aa1e73fa5bb209be32b"
+libc = "glibc"
+os = "linux"
+
+    [[HMMER.download]]
+    sha256 = "5545f3581738b3ea327796a04f03076d79fed617981dc66e9838ed8eaef35259"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.4.0+0/HMMER.v3.4.0.i686-linux-gnu.tar.gz"
+[[HMMER]]
+arch = "i686"
+git-tree-sha1 = "61c82daab955c8d88d38881edab5c7195f0fbb25"
+libc = "musl"
+os = "linux"
+
+    [[HMMER.download]]
+    sha256 = "b39f78a0465c32faf48b7011c494ee70f3485e3b7173b6ab89251089cb8522a2"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.4.0+0/HMMER.v3.4.0.i686-linux-musl.tar.gz"
 [[HMMER]]
 arch = "x86_64"
-git-tree-sha1 = "f6999fd9c8c54d48014052a5e7160506b32326c5"
+git-tree-sha1 = "56fd97f2dfcaa4f112d3731633673e7d28317168"
+os = "macos"
+
+    [[HMMER.download]]
+    sha256 = "49b27a3405e48f7c6ba69daa3597445441b87f62c8909112358b060e7a53a185"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.4.0+0/HMMER.v3.4.0.x86_64-apple-darwin.tar.gz"
+[[HMMER]]
+arch = "x86_64"
+git-tree-sha1 = "feebd9f79bd3ea60239553cd7c87cc71eafbe9dc"
+libc = "glibc"
+os = "linux"
+
+    [[HMMER.download]]
+    sha256 = "5ca18adcdb290f3b5e7ce3685fc23f9b62b599bb1b3f364ddef26abe73bb92fa"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.4.0+0/HMMER.v3.4.0.x86_64-linux-gnu.tar.gz"
+[[HMMER]]
+arch = "x86_64"
+git-tree-sha1 = "3e4621804c2c3146417036aaec91fda67afe5642"
+libc = "musl"
+os = "linux"
+
+    [[HMMER.download]]
+    sha256 = "d1d7199c85e874eccb7e037d37565102590d1acceec107999561ed4a9dab07d1"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.4.0+0/HMMER.v3.4.0.x86_64-linux-musl.tar.gz"
+[[HMMER]]
+arch = "x86_64"
+git-tree-sha1 = "80688cb2716672ccd6b520daa5d75d3c36c63552"
 os = "freebsd"
 
     [[HMMER.download]]
-    sha256 = "2fe0fb5f3329472a043eebee7fb911fe121b007ea4e4a23c40be641c3a45650b"
-    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.1.0+0/HMMER.v3.1.0.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "a81ff8cbc848c9bf5e17ddb5d60b87349d5bd7f7de85021a0982ccccf886c322"
+    url = "https://github.com/JuliaBinaryWrappers/HMMER_jll.jl/releases/download/HMMER-v3.4.0+0/HMMER.v3.4.0.x86_64-unknown-freebsd.tar.gz"
